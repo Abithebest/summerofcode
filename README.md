@@ -50,3 +50,20 @@ _Undecided to pursue_
 - [ ] Password Generator
 - [ ] HTTP Server
 - [ ] Database Engine
+
+# Final "Exams"
+- [ ] _Java_ - School Management System
+- [ ] _C++_ - American Truck Simulator Telemetry Plugin
+- [ ] _SQL_ - Logistics Database
+- [ ] _R_ - Sports Analyics Dashboard
+- [ ] _Go_ - Fleet Monitoring Service
+- [ ] _Rust_ - File Synchronization Tool
+- [ ] _Kotlin_ - UNDECIDED
+- [ ] _Swift_ - UNDECIDED
+
+- [ ] _Final_
+    - [ ] C++ Trucking Simulator - Creates Data
+    - [ ] SQL Database - Collects Data
+    - [ ] Go API Server - Serves Data
+    - [ ] Swift Mobile App - Shows Data of Simulator
+    - [ ] R Analytics Dashboard - Analyzes Data
