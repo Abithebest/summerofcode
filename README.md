@@ -20,7 +20,7 @@ I am learning these using https://www.w3schools.com and ChatGPT. w3schools helps
 - [x] Garage Simulator - _java/Garage.java_
 
 ### C++
-- [ ] Delivery Simulator - _cpp/Delivery/main.cpp_
+- [ ] Delivery Simulator - _cpp/Delivery/*_
 - [ ] Traffic Simulator
 
 ### SQL

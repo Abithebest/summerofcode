@@ -1,10 +1,8 @@
 # C++
 
 ### Projects
-- [ ] Delivery Simulator
+- [ ] Delivery Simulator - _Delivery/*_
+    - https://chatgpt.com/s/t_6a35c1b4ed488191b24e0e6969aa2b6d
 - [ ] Traffic Simulator
 
 ### Final Thoughts
-- Why is it so confusing
-- Why does including multiple files need so much
-- MacOS got me bugging cuz I search one thing and its wrong half the time
