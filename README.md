@@ -24,7 +24,7 @@ I am learning these using https://www.w3schools.com and ChatGPT. w3schools helps
 - [ ] Traffic Simulator
 
 ### SQL
-- [ ] Restaurant Database
+- [ ] Restaurant Database - _sql/Restaurant/*_
 - [ ] Trucking Company Database
 - [ ] Warehouse Inventory System
 

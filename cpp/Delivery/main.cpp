@@ -82,7 +82,7 @@ int main() {
                     packageString = "No Packages Today...\n";
                 }
 
-                // Workers Working
+                /*// Workers Working
                 std::vector<double> driverSpecialties;
                 for(auto worker : workers) {
                     Worker& workerData = worker.second;
@@ -95,7 +95,7 @@ int main() {
                     } else {
                         //mechanic lvl.5 fixes random vehicle
                     }
-                }
+                }*/
 
                 // Depart & Return Vehicles
                 for(Vehicle& vehicle : vehicles) {
@@ -107,26 +107,16 @@ int main() {
                         }
 
                         vehicle.emptyPackages();
-                        double specialtyRemove = 1.0;
-                        if(!driverSpecialties.empty()) {
-                            specialtyRemove -= driverSpecialties[0];
-                            driverSpecialties.erase(driverSpecialties.begin());
-                        }
 
-                        vehicle.maintenance.fuel -= get_random_double(5.0, 25.0) * specialtyRemove;
+                        vehicle.maintenance.fuel -= get_random_double(5.0, 25.0);
                         if(vehicle.maintenance.fuel < 0) {
                             vehicle.maintenance.fuel = 0;
                         }
-                        vehicle.maintenance.chasis += get_random_double(0.0, 5.0) * specialtyRemove;
-                        vehicle.maintenance.engine += get_random_double(0.0, 2.0) * specialtyRemove;
-                        vehicle.maintenance.tires += get_random_double(0.0, 20.0) * specialtyRemove;
+                        vehicle.maintenance.chasis += get_random_double(0.0, 5.0);
+                        vehicle.maintenance.engine += get_random_double(0.0, 2.0);
+                        vehicle.maintenance.tires += get_random_double(0.0, 20.0);
 
-                        std::string extraString = "\n";
-                        if(specialtyRemove < 1.0) {
-                            extraString = " (-" + (toFixed((1.0 - specialtyRemove) * 100, 0)) + "% maintenace removed)\n";
-                        }
-
-                        vehicleString += vehicle.getId() + " returned." + extraString;
+                        vehicleString += vehicle.getId() + " returned.\n";
                     } else if(!vehicle.getCurrentPackages().empty()) {
                         if(vehicle.maintenance.fuel == 0) {
                             vehicleString += vehicle.getId() + " needs fuel to depart.\n";
