@@ -39,11 +39,12 @@ I am learning these using https://www.w3schools.com and ChatGPT. w3schools helps
 - [ ] Distributed Job Queue
 
 ### Kotlin
+_Undecided to learn_
 - [ ] Banking System
 - [ ] Photography Portfolio App (?)
 
 ### Swift
-_Undecided to pursue_
+_Undecided to learn_
 - [ ] Grade Calculator
 - [ ] Event Planner App (?)
 - [ ] Social Media App (?)
